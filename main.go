@@ -32,4 +32,6 @@ func main() {
 	httpUserServer := usersServer.InitHttpServer(config, dbHandler)
 
 	 httpUserServer.Start()
+
+	//  test
 }
